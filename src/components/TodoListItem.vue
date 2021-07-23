@@ -1,7 +1,8 @@
 <template>
     <li>
-        {{ todo.text }}
-        <button @click="$emit('remove', todo.id)">X</button>
+        <lavel for="trimmedText">{{ todo.text }}</lavel>
+        <input type="checkbox" id="trimmedText" v-model="checkbox">
+        <button @click="$emit('remove', todo.id)">삭제</button>
     </li>
 </template>
 

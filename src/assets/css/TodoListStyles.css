@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: rgb(99, 143, 128);
+    font-size: 60px;
+
+}
+
+/* ul {
+    font-weight: bolder;
+}
+
+input {
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-family: sans-serif;
+    border-radius: 5px;
+} */
+
+#app {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-fontsmoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

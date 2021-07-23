@@ -5,7 +5,7 @@
             <TodoListItem v-for="todo in todos" :key="todo.id" :todo="todo" @remove="removeTodo"/>
         </ul>
         <p v-else>
-            Nothing left in the list. Add a new todo in the input above.
+            No List
         </p>
     </div>
 </template>

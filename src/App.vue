@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <ProductPage></ProductPage>
+    <h1>My Todo App!</h1>
+    <TodoList></TodoList>
   </div>
 </template>
 
 <script>
-import ProductPage from './components/ProductPage.vue'
+import TodoList from './components/TodoList.vue'
 
 export default {
   name: 'App',
   components: {
-    ProductPage
+    TodoList
   }
 }
 </script>
 
 <style>
-@import './assets/css/styles.css';
+@import './assets/css/TodoListStyles.css';
 </style>
